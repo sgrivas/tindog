@@ -1,0 +1,138 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Section */
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background: #fff;
+}
+/* Headings */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+/* Title */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+  position: static;
+  width: 60%;
+}
+@media screen and (min-width: 992px){
+  .title-image{
+    transform: rotate(25deg);
+    position: absolute;
+    max-width: 20%;
+    right: 20%;
+  }
+  #title{
+    text-align: left;
+  }
+}
+/* Features */
+#features{
+  position: relative;
+}
+.features-heading{
+  font-size: 1.5rem;
+}
+.feature-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition: .3s;
+}
+.icon:hover{
+  color: #ff4c68;
+  transition: .3s;
+}
+/* Testimonials */
+#testimonials{
+  padding-bottom: 5%;
+  margin-bottom: 7%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 2rem;
+}
+/* Press */
+#press{
+  padding: 7%;
+}
+.press-group{
+  background-color: #F7F7F7;
+  border-radius: 50px;
+  align-items: center;
+}
+.press-logo{
+  width: 80%;
+  margin: 20px;
+}
+/* Pricing */
+.pricing-text{
+  font-size: 2rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.card-header h3{
+  font-size: 1.2rem;
+}
+.card-body h4{
+  font-size: 1.8rem;
+}
+/* Footer */
+.social-icon{
+  margin: 20px 10px;
+}
