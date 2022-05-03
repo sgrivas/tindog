@@ -24,6 +24,9 @@ p{
   background-color: #ff4c68;
   color: #fff;
 }
+.grey-section{
+  background-color: #F7F7F7;
+}
 .white-section{
   background: #fff;
 }
@@ -96,7 +99,6 @@ p{
 /* Testimonials */
 #testimonials{
   padding-bottom: 5%;
-  margin-bottom: 7%;
 }
 .testimonial-image{
   width: 10%;
@@ -110,9 +112,8 @@ p{
 #press{
   padding: 4% 15%;
 }
+
 .press-group{
-  background-color: #F7F7F7;
-  border-radius: 50px;
   align-items: center;
 }
 .press-logo{
